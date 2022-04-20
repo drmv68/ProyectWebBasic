@@ -1,0 +1,53 @@
+/*acordate que el global este le vamos a cambiar la sombra de la caja... en amaraillo pues amarrilla
+y asi mor*/
+
+body{
+  background: url('img/imagen.jpg') no-repeat;
+  background-size: 85.4rem 44rem;
+  background-attachment: fixed;
+}
+#global{
+  background-color:  rgba(240,255,240,0.74);
+}
+#menu{
+  background-color:  rgba(100,100,99,0.74);
+}
+#menu ul li:hover{
+  background: #444;
+}
+#menu a{
+  color: #fff;
+}
+.boton-more{
+  background: #666;
+  color: #fff;
+}
+.boton-more:hover{
+  color: #fff;
+  background: #222;
+}
+form input[type="submit"]{
+  background: #999;
+  color: #fff;
+}
+
+form input[type="submit"]:hover{
+  color: #000;
+}
+footer{
+  background: rgba(121,121,121, 0.70);
+}
+.subir{
+  background: #999;
+  color: #900;
+}
+#slector_theme{
+  background: rgba(51, 51, 51, .5);
+}
+#logOut{
+  background: rgba(121,121,121, 0.70) ;
+}
+#logOut:hover{
+  background: rgba(65,65,65, 1);
+}
+

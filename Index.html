@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es" >
+<head>
+	<meta charset="utf-8">
+	<title>Practica</title>
+	<link rel="stylesheet" type="text/css" href="folderStyle/estilos.css">
+	<link id="theme" rel="stylesheet" type="text/css" href="folderStyle/black.css">
+	<!--JQuery--->
+
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+
+	<!--imagenes desplegables-->
+	 <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+ 	 <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+	<!---cdn fechas--->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+	<!---->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/locale/es.min.js"></script>
+
+</head>
+<body>
+
+	<div id="slector_theme">
+		<div title="Tema black/white" id="to-black"></div>
+		<div title="Tema azul" id="to-blue"></div>
+		<div title="Tema yellow" id="to-yellow"></div>
+		
+	</div>
+
+
+	<section id="global">
+		<header>
+			<h1 id="titulo">Practica MOR</h1>
+
+			<div class="clearFix"></div>
+
+			<nav id="menu">
+				<ul>
+					<li><a href="Index.html">Inicio</a></li>
+					<li><a href="reloj.html">reloj</a></li>
+					<li><a href="sobreMi.html">sobre mi</a></li>
+					<li><a href="contacto.html">contacto</a></li>
+				</ul>
+			</nav>	
+		</header>
+
+
+		<div id="deslizador">
+			<div class="bxslider">
+				 <div><img src="folderStyle/img/paisajeUno.jpg" title="Paisaje Mas lindo que Daniel"></div>
+				 <div><img src="folderStyle/img/PaisajeDos.jpg" title="Otro paisaje lindo"></div>
+				 <div><img src="folderStyle/img/paisajeTres.jpg" title="El amor es una magia"></div>
+			</div>
+
+		</div>
+
+<!--objeto JSon cargar desde js EL DIV POST abre un append-->
+		<section id="content">
+				<div id="posts">
+					
+				</div>
+
+			<aside id="sidebar">
+				<div id="sobre">
+					<h4>¿Quien soy?¿ser o no ser?</h4>
+					<img src="folderStyle/img/quien_soy.jpg">
+					<p>“Ser o no ser, esa es la cuestión” (en inglés, to be, or not to be, that is the question) es la primera frase del soliloquio o monólogo del personaje Hamlet de la obra de teatro Hamlet, príncipe de Dinamarca, escrita alrededor del año 1603 por el dramaturgo inglés William Shakespeare.</p>					
+				</div>
+
+				<div id="login">
+					<h4>Identificacón</h4>
+					<form>
+						<label for="name" >nombre</label>
+						<input type="text" name="name" id="dato_nombre">
+
+						<label for="email" >correo</label>
+						<input type="email" name="email">
+
+						<label for="password" >contraseña</label>
+						<input type="password" name="contraseña">
+
+						<input id="enviar" type="submit" value="Entrar">
+					</form>
+					
+				</div>
+
+			</aside>
+
+			<div class="clearFix"></div>
+		</section>
+
+</section>
+	<script type="text/javascript" src="JS/JScript.js"></script>
+</body>
+
+	<footer>
+			<div><h5>C derechos de autor mor.</h5></div>
+	</footer>
+<a href="#" class="subir">UP</a>
+</html>

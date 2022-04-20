@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es" >
+<head>
+	<meta charset="utf-8">
+	<title>Practica</title>
+<!--este es JQuery archivo madre-->
+	<script type="text/javascript" src="JS/jqueryArchivoMadre.min.js"></script>
+<!---->
+	<link rel="stylesheet" type="text/css" href="folderStyle/estilos.css">
+	<link id="theme" rel="stylesheet" type="text/css" href="folderStyle/black.css">
+	<script type="text/javascript" src="JS/JScriptDos.js"></script>
+<!--JQuery--->
+	<link rel="stylesheet" href="JQueryUno/jquery-ui/jquery-ui.min.css" />
+	<link rel="stylesheet" href="JQueryUno/jquery-ui/jquery-ui.structure.min.css" />
+	<link rel="stylesheet" href="JQueryUno/jquery-ui/jquery-ui.theme.min.css" />
+<!-- JQuery que modifica archivos	-->
+	<script type="text/javascript" src="JQueryUno/jquery-ui/jquery-ui.min.js"></script>
+
+</head>
+<body>
+
+	<div id="slector_theme">
+		<div title="Tema black/white" id="to-black"></div>
+		<div title="Tema azul" id="to-blue"></div>
+		<div title="Tema yellow" id="to-yellow"></div>
+		
+	</div>
+
+
+	<section id="global">
+		<header>
+			<h1 id="titulo">Practica MOR</h1>
+
+			<div class="clearFix"></div>
+
+			<nav id="menu">
+				<ul>
+					<li><a href="Index.html">Inicio</a></li>
+					<li><a href="reloj.html">reloj</a></li>
+					<li><a href="sobreMi.html">sobre mi</a></li>
+					<li><a href="contacto.html">contacto</a></li>
+				</ul>
+			</nav>	
+		</header>
+
+<!--objeto JSon cargar desde js EL DIV POST abre un append-->
+		<section id="content">
+				<div id="box">
+					<!--carga de acordeon-->
+					<h3>Sobre Mi</h3></br>
+					<div id="acordeon">
+						<h4>¿Quien soy?</h4>
+						<div>
+							<p>Lorem ipsum dolor, sit amet consectetur, adipisicing elit. Doloremque necessitatibus officiis autem exercitationem vero unde excepturi, mollitia vel, quis numquam ducimus iste dignissimos voluptas eius in est eligendi. Voluptate, voluptatum?</p>
+						</div>
+						<h4>Servicios</h4>
+						<div>
+							<p>Lorem ipsum dolor, sit amet consectetur, adipisicing elit. Doloremque necessitatibus officiis autem exercitationem vero unde excepturi, mollitia vel, quis numquam ducimus iste dignissimos voluptas eius in est eligendi. Voluptate, voluptatum?</p>
+						</div>
+						<h4>Clientes</h4>
+						<div>
+							<p>Lorem ipsum dolor, sit amet consectetur, adipisicing elit. Doloremque necessitatibus officiis autem exercitationem vero unde excepturi, mollitia vel, quis numquam ducimus iste dignissimos voluptas eius in est eligendi. Voluptate, voluptatum?</p>
+						</div>
+					</div>
+				</div>
+
+			<aside id="sidebar">
+				<div id="sobre">
+					<h4>¿Quien soy?¿ser o no ser?</h4>
+					<img src="folderStyle/img/quien_soy.jpg">
+					<p>“Ser o no ser, esa es la cuestión” (en inglés, to be, or not to be, that is the question) es la primera frase del soliloquio o monólogo del personaje Hamlet de la obra de teatro Hamlet, príncipe de Dinamarca, escrita alrededor del año 1603 por el dramaturgo inglés William Shakespeare.</p>					
+				</div>
+
+				<div id="login">
+					<h4>Identificacón</h4>
+					<form>
+						<label for="name" >nombre</label>
+						<input type="text" name="name" id="dato_nombre">
+
+						<label for="email" >correo</label>
+						<input type="email" name="email">
+
+						<label for="password" >contraseña</label>
+						<input type="password" name="contraseña">
+
+						<input id="enviar" type="submit" value="Entrar">
+					</form>
+					
+				</div>
+
+			</aside>
+
+			<div class="clearFix"></div>
+		</section>
+
+</section>
+</body>
+
+	<footer>
+			<div><h5>C derechos de autor mor.</h5></div>
+	</footer>
+<a href="#" class="subir">UP</a>
+</html>
